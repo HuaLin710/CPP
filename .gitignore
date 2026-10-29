@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.idea/
+*.code-workspace
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+*.gch
+*.pch
+*.d
+
+# Libraries
+*.a
+*.la
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+*.elf
+
+# Debug symbols (clang/lldb on macOS)
+*.dSYM/
+
+# Build output folders
+output/
+build/
+bin/
+Debug/
+Release/
+
+# Ignore extensionless binaries next to source files,
+# then re-include source and project files.
+*
+!*/
+!*.cpp
+!*.c
+!*.cc
+!*.cxx
+!*.h
+!*.hpp
+!*.hxx
+!*.md
+!*.txt
+!*.json
+!.gitignore
+!.gitattributes
