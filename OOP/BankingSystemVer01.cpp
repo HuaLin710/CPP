@@ -1,7 +1,7 @@
 /*
 * Banking System Ver 0.1
-* 작성자: 임화
-* 내용: OOP 단계별 프로젝트의 기본 틀 구성
+* Author: Im Hwa
+* Description: Basic framework for the step-by-step OOP project
 */
 # include <iostream>
 # include <cstring>

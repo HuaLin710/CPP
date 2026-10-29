@@ -1,52 +1,52 @@
 # C++ Learning Notes
 
-C++ 学习练习仓库，包含基础语法练习、教材章节示例，以及逐步迭代的银行账户系统。
+A C++ practice repository covering basic syntax exercises, textbook chapter examples, and an iteratively developed bank account system.
 
-## 目录结构
+## Directory Structure
 
 ```text
 CPP/
-├── learning/     # 基础语法：输入输出、引用、重载、命名空间等
-├── book/         # 教材章节示例（Chapter 3–16）
-└── OOP/          # 银行系统项目，从 Ver01 迭代到 Ver11
+├── learning/     # Basic syntax: I/O, references, overloading, namespaces, etc.
+├── book/         # Textbook chapter examples (Chapter 3–16)
+└── OOP/          # Banking system project, iterated from Ver01 to Ver11
 ```
 
 ### `learning/`
 
-入门练习，覆盖加法、函数重载、默认参数、引用、内联函数、命名空间等。
+Introductory exercises covering addition, function overloading, default arguments, references, inline functions, namespaces, and more.
 
 ### `book/`
 
-按章节组织的示例与作业：
+Examples and homework organized by chapter:
 
-| 章节 | 主要内容 |
+| Chapter | Main Topics |
 |------|----------|
-| Chapter 3–4 | 类与对象、封装 |
-| Chapter 5–6 | 拷贝构造、对象关系 |
-| Chapter 7–8 | 继承、虚函数 |
-| Chapter 9 | 多重继承 |
-| Chapter 10–11 | 运算符重载、仿函数 |
-| Chapter 12 | 字符串类 |
-| Chapter 13–14 | 函数模板、类模板 |
-| Chapter 15 | 异常处理 |
-| Chapter 16 | 类型转换（`static_cast` / `dynamic_cast` 等） |
+| Chapter 3–4 | Classes and objects, encapsulation |
+| Chapter 5–6 | Copy constructors, object relationships |
+| Chapter 7–8 | Inheritance, virtual functions |
+| Chapter 9 | Multiple inheritance |
+| Chapter 10–11 | Operator overloading, functors |
+| Chapter 12 | String class |
+| Chapter 13–14 | Function templates, class templates |
+| Chapter 15 | Exception handling |
+| Chapter 16 | Type conversions (`static_cast` / `dynamic_cast`, etc.) |
 
 ### `OOP/`
 
-银行账户系统的演进版本（`BankingSystemVer01` → `Ver11`），逐步加入继承、虚函数、数组封装、自定义 `String`、异常处理等。
+Evolving versions of a bank account system (`BankingSystemVer01` → `Ver11`), gradually adding inheritance, virtual functions, array encapsulation, a custom `String` class, exception handling, and more.
 
-## 编译运行
+## Build and Run
 
-环境：macOS + `clang++`。
+Environment: macOS + `clang++`.
 
-单文件示例：
+Single-file examples:
 
 ```bash
 clang++ -g example.cpp -o example
 ./example
 ```
 
-多文件项目（以 `OOP/BankingSystemVer11` 为例）：
+Multi-file projects (using `OOP/BankingSystemVer11` as an example):
 
 ```bash
 cd OOP/BankingSystemVer11
@@ -54,8 +54,8 @@ clang++ -g *.cpp -o BankingSystemMain
 ./BankingSystemMain
 ```
 
-VS Code / Cursor 中可直接用已有的 C/C++ build 任务编译当前打开的 `.cpp` 文件。
+In VS Code / Cursor, you can compile the currently open `.cpp` file with the existing C/C++ build task.
 
-## 说明
+## Notes
 
-仓库只跟踪源代码（`.cpp` / `.h`）和必要的编辑器配置。编译生成的可执行文件、`.dSYM` 调试符号和 `.DS_Store` 不会提交。
+This repository tracks only source files (`.cpp` / `.h`) and necessary editor configuration. Generated executables, `.dSYM` debug symbols, and `.DS_Store` files are not committed.
